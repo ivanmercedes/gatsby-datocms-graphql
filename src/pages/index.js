@@ -1,11 +1,15 @@
 import React from "react"
-import ImagenHotel from "../components/imagenHote";
 import Layout from '../components/layout';
+
+import ImagenHotel from "../components/imagenHote";
+import ContenidoInicio from "../components/ContenidoInicio";
+
 
 
 const IndexPage = () => (
      <Layout>
         <ImagenHotel />
+        <ContenidoInicio />
      </Layout>
 )
 
