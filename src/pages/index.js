@@ -28,11 +28,6 @@ const IndexPage = () => {
    const habitaciones = useHabitaciones();
    const inicio = useInicio();
 
-   console.log(inicio);
-   
-
-
-
    return (
       <Layout>
         <ImagenHotel />
